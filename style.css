@@ -1,0 +1,83 @@
+/*body style*/
+body {
+  background: black;
+}
+
+/*header styling*/
+header {
+  position: fixed;
+  width: 95vw;
+  top: 0;
+  margin: 10px;
+  text-indent: 50px;
+  background: black;
+  border: 5px solid white;
+  border-radius: 25px;
+}
+header > h1 {
+  font: Arial;
+  color: hotpink;
+}
+header > h4 {
+  font-style: italic;
+  color: pink;
+}
+nav{
+  font: monospace;
+  font-size: 15px;
+  width: 95vw;
+}
+nav > ul > li {
+  display: inline;
+  padding: 10px;
+  margin: 5px;
+}
+a:link {
+  color: hotpink;
+}
+a:visited {
+  color: pink;
+}
+
+section.container {
+  clear: left;
+  width: 95vw;
+}
+section.elements {
+  float: left;
+  width: 30vw;
+  border: 2px solid white;
+  border-radius: 20px;
+  margin-top: 180px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  background: black;
+  color: white;
+}
+
+article {
+  position: static;
+  clear: left;
+
+}
+
+img.icon {
+  height: 100px;
+  width: 100px;
+  float: left;
+  margin: 10px;
+}
+article > h5 {
+  color: pink;
+  padding: 10px;
+}
+
+footer{
+  color: pink;
+  clear: left;
+  position: static;
+}
